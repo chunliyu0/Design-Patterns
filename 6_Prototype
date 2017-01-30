@@ -1,0 +1,3 @@
+Shallow Copy: copy value and copy pointer, no creating new space
+Deep Copy: copy value and copy object
+Clone: 
