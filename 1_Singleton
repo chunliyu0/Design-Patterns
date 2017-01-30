@@ -1,5 +1,7 @@
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+Singleton is to ensure that a class will only have one object
+for example, we always expect there is only one connection to a database from a certain application
+Also, in the game development, only one game control is needed to start the whole game, in which case the game control can be implemented by singletoni
+
+The Singleton can be implemented by setting the constructor private and setting the Instance static.
+static Singleton* Instance() : declare the object
+static VOID Destroy() : free object
